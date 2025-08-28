@@ -2,9 +2,9 @@ return {
   "neovim/nvim-lspconfig",
   opts = {
     servers = {
-ts_ls ={
-enabled=true,
-},
+      ts_ls = {
+        enabled = true,
+      },
       rust_analyzer = {
         settings = {
           ["rust-analyzer"] = {
